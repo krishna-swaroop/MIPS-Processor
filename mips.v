@@ -1,3 +1,8 @@
+// Description of the top module of the MIPS Processor.
+// Has to main blocks- control module and a module describing the datapath.
+
+
+
 module mips (input clk, reset,
              output [31:0] pc,
              input [31:0] instr,
