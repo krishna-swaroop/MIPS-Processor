@@ -1,6 +1,6 @@
 // Description of a 2:1 Multiplexer
 
-module mux2 # (parameter WIDTH  8)
+module mux2 # (parameter WIDTH = 8)
               (input [WIDTH-1:0] d0, d1,
                input s,
                output [WIDTH-1:0] y);
