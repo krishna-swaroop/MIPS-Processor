@@ -12,13 +12,13 @@ module maindec(input [5:0] op,
   
   always@(*)
     case(op)
-      6b000000: controls <= 9b110000010; //Rtype Instruction
-      6b100011: controls <= 9b101001000; //Load Word
-      6b101011: controls <= 9b001010000; //Store Word
-      6b000100: controls <= 9b000100001; //Branch if equal
-      6b001000: controls <= 9b101000000; //ADD Immediate
-      6b000010: controls <= 9b000000100; //Jump
-      default: controls <= 9bxxxxxxxxx; //???
+      6'b000000: controls <= 9'b110000010; //Rtype Instruction
+      6'b100011: controls <= 9'b101001000; //Load Word
+      6'b101011: controls <= 9'b001010000; //Store Word
+      6'b000100: controls <= 9'b000100001; //Branch if equal
+      6'b001000: controls <= 9'b101000000; //ADD Immediate
+      6'b000010: controls <= 9'b000000100; //Jump
+      default: controls <= 9'bxxxxxxxxx; //???
     endcase
 endmodule    
       
