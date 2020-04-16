@@ -1,4 +1,4 @@
-// Description of the top module of the MIPS Processor.
+// Description of the MIPS Processor. Top block(not including memory blocks)
 // Has to main blocks- control module and a module describing the datapath.
 
 
