@@ -1,3 +1,5 @@
+// Description of Control Module of the MIPS Processor.
+// The module issues control signals for the datapath.
 module controller ( input [5:0] op, funct,
                     input  zero,
                     output memtoreg, memwrite,
