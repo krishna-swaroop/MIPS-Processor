@@ -7,5 +7,5 @@ module imem (input [5:0] a,
     begin
       $readmemh ("memfile.dat",RAM);
     end
-  assign rd  RAM[a]; // word aligned
+  assign rd = RAM[a]; // word aligned
 endmodule
